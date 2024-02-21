@@ -6,10 +6,10 @@
 
 .contenitore{
     background-color: #e8e8e8;
-    width: 40%;
+    width: 15%;
     margin: 50px auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* da cancellare */
+  
 }
 img{
     max-width: 50%;
@@ -52,6 +52,7 @@ img{
     border-radius: 10px;
     margin: 2px 2px;
     background-color: #bbbbbb;
+    box-shadow: 19px 9px 10px #dedede;
 }
 .n0{
     width: 65%;
