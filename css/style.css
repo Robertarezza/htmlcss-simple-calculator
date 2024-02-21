@@ -6,7 +6,7 @@
 
 .contenitore{
     background-color: #e8e8e8;
-    width: 60%;
+    width: 40%;
     margin: 50px auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* da cancellare */
@@ -22,33 +22,57 @@ img{
     background-color: black;
     color: green;
     text-align: right;
+    padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /* main */
 .calcolatrice{
     display: flex;
+    margin: 5px 5px;
+    padding: 5px;
+
 }
 .numeri{
     width: calc(100% /2);
     height: 200px;
-    display: inline-block;
 }
 
 .n1{
     display: flex;
     flex-wrap: wrap;
+    width: 500px;
 }
 
 .full{
     width: calc(100% / 3);
     border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 }
 .n0{
     width: 65%;
     border: 1px solid black;
+    margin-right: 2px;
 }
 
 .op{
-    
+   display: flex; 
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: space-around;
+   margin-left: 5px;
+}
+.text{
+    border: 1px solid black;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.fuguale{
+    background-color: orange;
 }
