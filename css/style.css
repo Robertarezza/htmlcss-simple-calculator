@@ -29,13 +29,13 @@ img{
 /* main */
 .calcolatrice{
     display: flex;
-    margin: 5px 5px;
     padding: 5px;
 
 }
 .numeri{
     width: calc(100% /2);
     height: 200px;
+    
 }
 
 .n1{
@@ -45,16 +45,18 @@ img{
 }
 
 .full{
-    width: calc(100% / 3);
+    width:30%;
     border: 1px solid black;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    margin: 2px 2px;
+    background-color: #bbbbbb;
 }
 .n0{
     width: 65%;
     border: 1px solid black;
-    margin-right: 2px;
+    margin-right: 1px;
 }
 
 .op{
@@ -70,9 +72,9 @@ img{
     text-align: center;
     height: 30px;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: #77a8b0;
 }
 
 .fuguale{
-    background-color: orange;
+    background-color: #ff9f0a;
 }
