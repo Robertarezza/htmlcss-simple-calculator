@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    background-color: #e8e8e8;
+    width: 60%;
+    margin: 50px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* da cancellare */
+}
+img{
+    max-width: 50%;
+}
+.logo{
+    text-align: center;
+
+}
+.risultato{
+    background-color: black;
+    color: green;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* main */
+.calcolatrice{
+    display: flex;
+}
+.numeri{
+    width: calc(100% /2);
+    height: 200px;
+    display: inline-block;
+}
+
+.n1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.full{
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+.n0{
+    width: 65%;
+    border: 1px solid black;
+}
+
+.op{
+    
+}
